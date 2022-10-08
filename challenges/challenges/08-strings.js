@@ -15,7 +15,7 @@ function fullName({ firstName, lastName }) {
 //   return fullName.toUpperCase();
 // }
 
-const bf = fullName({ lastName: "joey", firstName: "alvarado" });
-const gf = fullName({ lastName: "allison", firstName: "busch" });
+const bf = fullName({ lastName: 'joey', firstName: 'alvarado' });
+const gf = fullName({ lastName: 'allison', firstName: 'busch' });
 
 console.log(`${bf} and ${gf} sitting in a tree`);

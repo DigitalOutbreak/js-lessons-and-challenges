@@ -1,12 +1,11 @@
-// map
-// does not return a new array
-// does not change size of original array
-// uses values from original array when making new one
+// select the element
+// addEventListener()
+// what event, what to do
 
-const people = [
-  { name: 'bob', age: 20, job: 'developer' },
-  { name: 'peter', age: 25, job: 'designer' },
-  { name: 'susy', age: 30, job: 'the boss' },
-];
+const btn = document.querySelector('.btn');
+const heading = document.querySelector('h2');
 
-const ages = people.map;
+function changeColors() {
+  console.log('hello');
+}
+btn.addEventListener('click', changeColors);
