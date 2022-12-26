@@ -1,16 +1,10 @@
-// select the element
-// addEventListener()
-// what event, what to do
+/* 
+setTimeout - runs function once after a specific time
 
-const btn = document.querySelector('.btn');
-const heading = document.querySelector('h2');
-
-function changeColors() {
-  let hasClass = heading.classList.contains('red');
-  if (hasClass) {
-    heading.classList.remove('red');
-  } else {
-    heading.classList.add('red');
-  }
-}
-btn.addEventListener('click', changeColors);
+- pass function reerence
+- duration in ms (1000 ms = 1 second)
+- default 0, will cover more extensively in async/await section
+- returns unique identifier
+- clearTimeout to cancel
+- on window object
+*/
